@@ -12,3 +12,4 @@ libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-sql" % sparkVersion
 )
 libraryDependencies += "org.apache.hadoop" % "hadoop-aws" % "3.3.1"
+libraryDependencies += "com.typesafe" % "config" % "1.3.3"
